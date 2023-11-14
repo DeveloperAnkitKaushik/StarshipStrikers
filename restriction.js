@@ -5,6 +5,7 @@ document.addEventListener("contextmenu", function (e) {
 document.addEventListener('keydown', function (event) { 
   if (event.key === 'F12' || event.keyCode === 123) {
     event.preventDefault();
+    //
 }
   if (event.keyCode == 123) {
     return false; 
